@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+  xmlns:tools="http://schemas.android.com/tools"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    tools:context=".MainActivity"
+  >  
+  
+    <!-- HeadBar  
+         这样的话，你可以很容易地定义一个titlebar的样式，方便使用和统一修改。  
+         如果需要自定义可以在下面设置自己的属性，能够覆盖style中的属性，比如你可以设置layout_margin等等，能够覆盖style中的layout_margin  
+     -->  
+ 
+    <LinearLayout
+        android:id="@+id/mylayout"
+        style="@style/header_linear_layout"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_back"
+            
+            style="@style/header_button_back"
+           />
+
+        <TextView
+            android:id="@+id/myTextView"
+          
+            android:text="个人中心" 
+            style="@style/header_text_view"
+            
+            
+            />
+
+        <Button
+            android:id="@+id/btn_operate"
+            style="@style/header_button_operate"
+            android:text="管理" />
+    </LinearLayout>
+ 
+</RelativeLayout>  
