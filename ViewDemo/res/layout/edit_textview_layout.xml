@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+   >
+ <EditText
+       android:id="@+id/edit01"
+       android:padding="10dip"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="这里是：EditText，可以显示需要显示的文字信息。至于参数的用法你可以到到' 咔嚓截屏'  的官网去看一下，小妹过一阵子有时间
+       应该会传上去的。"
+       android:textSize="12sp"
+       android:textColor="#ff00ff00"
+       android:background="#cc0000"
+       />
+<TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="下面是一个空白的EditText"/>
+<EditText
+    android:id="@+id/edt1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#f00fff"/>
+<TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="下面是一个空白提示文字"/>
+<EditText 
+    android:id="@+id/edt2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="请输入用户名...."
+  />
+
+<TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="下面是模拟文本区"/>
+<EditText 
+    android:id="@+id/edt3"
+    android:background="#fff000"
+    android:layout_width="100dip"
+    android:layout_height="80dip"/>
+<TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:text="下面是密码输入"/>
+<EditText 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="請輸入密碼"
+    android:password="true"
+    />
+<TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="只接受电话号【表情】"/>
+
+<EditText
+android:id="@+id/edit_text"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:phoneNumber="true"
+
+/>
+
+  
+
+</LinearLayout>

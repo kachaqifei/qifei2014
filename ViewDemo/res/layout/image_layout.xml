@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+   >
+   <TextView
+       android:id="@+id/textview01"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="这首咔嚓截图的处理效果"
+       android:textSize="20dip"
+       android:textColor="#ff00ff00"
+       />
+
+<ImageView 
+    android:id="@+id/myimgview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/kacha"
+    />
+</LinearLayout>

@@ -1,0 +1,242 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+   >
+
+    <RelativeLayout
+        android:id="@+id/myLinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:orientation="vertical" 
+        >
+
+        <TextView
+            android:id="@+id/firsstTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="线性布局"
+            android:textSize="20sp" />
+
+          <ImageView
+                        android:id="@+id/more_setting_about_go"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/actionbar_go_normal" />
+</RelativeLayout>
+<ImageView
+    android:id="@+id/img1"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dip"
+                    android:background="@drawable/line" 
+                    android:layout_below="@+id/myLinearLayout"
+                    />
+
+<RelativeLayout
+        android:id="@+id/myFrameLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:orientation="vertical"
+        android:layout_below="@+id/img1"
+     
+        >
+
+        <TextView
+            android:id="@+id/firsstTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="帧布局"
+            android:textSize="20sp" />
+
+          <ImageView
+                        android:id="@+id/more_setting_about_go"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/actionbar_go_normal" />
+</RelativeLayout>
+<ImageView
+    android:id="@+id/img2"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dip"
+                    android:background="@drawable/line" 
+                    android:layout_below="@+id/myFrameLayout"/>
+
+
+
+<RelativeLayout
+        android:id="@+id/myTableLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:orientation="vertical" 
+        android:layout_below="@+id/img2"
+        >
+
+        <TextView
+            android:id="@+id/firsstTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="表格布局"
+            android:textSize="20sp" />
+
+          <ImageView
+                        android:id="@+id/more_setting_about_go"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/actionbar_go_normal" />
+</RelativeLayout>
+<ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dip"
+                    android:background="@drawable/line" />
+
+
+<RelativeLayout
+        android:id="@+id/myRelativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:orientation="vertical" 
+        android:layout_below="@+id/myTableLayout"
+        >
+
+        <TextView
+            android:id="@+id/firsstTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="相对布局"
+            android:textSize="20sp" />
+
+          <ImageView
+                        android:id="@+id/more_setting_about_go"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/actionbar_go_normal" />
+</RelativeLayout>
+<ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dip"
+                    android:background="@drawable/line" />
+<RelativeLayout
+        android:id="@+id/myAbsoluteLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:orientation="vertical" 
+        android:layout_below="@+id/myRelativeLayout"
+        >
+
+        <TextView
+            android:id="@+id/firsstTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="绝对布局"
+            android:textSize="20sp" />
+
+          <ImageView
+                        android:id="@+id/more_setting_about_go"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/actionbar_go_normal" />
+</RelativeLayout>
+<ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dip"
+                    android:background="@drawable/line" />
+<RelativeLayout
+        android:id="@+id/mybaseView"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:orientation="vertical" 
+        android:layout_below="@+id/myAbsoluteLayout"
+        >
+
+        <TextView
+            android:id="@+id/firsstTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="常用基本控件"
+            android:textSize="20sp" />
+
+          <ImageView
+                        android:id="@+id/more_setting_about_go"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/actionbar_go_normal" />
+</RelativeLayout>
+
+<RelativeLayout
+        android:id="@+id/myexample"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:orientation="vertical" 
+        android:layout_below="@+id/mybaseView"
+        >
+
+        <TextView
+            android:id="@+id/firsstTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="综合小例子"
+            android:textSize="20sp" />
+          <ImageView
+                        android:id="@+id/more_setting_about_go"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/actionbar_go_normal" />
+</RelativeLayout>
+<RelativeLayout
+        android:id="@+id/myhightView"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:orientation="vertical" 
+        android:layout_below="@+id/myexample"
+        >
+
+        <TextView
+            android:id="@+id/firsstTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="常用高级控件"
+            android:textSize="20sp" />
+          <ImageView
+                        android:id="@+id/more_setting_about_go"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/actionbar_go_normal" />
+</RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+   >
+   
+<CheckBox 
+    android:id="@+id/plain_cb"
+    android:text="Plain"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+<CheckBox 
+    android:id="@+id/serif_cb"
+    android:text="Serif"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+<CheckBox 
+    android:id="@+id/blod_cb"
+    android:text="Blod"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+<CheckBox 
+    android:id="@+id/italic_cb"
+    android:text="Italic"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+</LinearLayout>

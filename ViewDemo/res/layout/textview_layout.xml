@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textview01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#cc0000"
+        android:padding="10dip"
+        android:text="这里是：TextView，可以显示需要显示的文字信息。至于参数的用法你可以到到
+       &apos; 咔嚓截屏&apos;  的官网去看一下，小妹过一阵子有时间
+       应该会传上去的。"
+        android:textColor="#ff00ff00"
+        android:textSize="20sp" />
+    <!-- 设置，只能显示一行文字，多余的以三个点结束 -->
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="下面设置，只可以显示一行,多余的以三点样式结束"/>
+    
+    <TextView
+        android:id="@+id/textview02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ccffff"
+        android:padding="10dip"
+        android:singleLine="true"
+        android:text="这里是：TextView，可以显示需要显示的文字信息。至于参数的用法你可以到到
+       &apos; 咔嚓截屏&apos;  的官网去看一下，小妹过一阵子有时间
+       应该会传上去的。"
+        android:textColor="#ff00ff00"
+        android:textSize="20sp" />
+    <!-- 设置超链接 -->
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="下面设置超链接"/>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:autoLink="all"
+        android:text="百度一下: http://www.baidu.com.com" />
+    <!-- 设置最长显示的字符串，这里设置为七个字符 -->
+<TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="下面是设置文本最多显示字符，这里是7个字符"
+    
+    />
+    <TextView
+        android:background="#cff0ff"
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:maxLength="7"
+        android:text="咔嚓截屏，画圈就行" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="#ff00ff"
+        android:gravity="center"
+        android:text="文字居中"
+        android:textColor="#faabbc"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下面是跑马灯效果" />
+
+    
+
+<TextView
+
+        android:id="@+id/TextView5"        
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"      
+
+        android:textColor="#ff00ff"  
+
+        android:ellipsize="marquee"           
+
+        android:focusable="true"              
+
+        android:marqueeRepeatLimit="marquee_forever"
+
+        android:focusableInTouchMode="true"       
+
+        android:scrollHorizontally="true"                
+         android:singleLine="true"
+        android:text="咔嚓截屏，立志要做最好的截屏工具，欢迎大家参与进来，狂热粉丝群QQ:325746781" />
+
+</LinearLayout>

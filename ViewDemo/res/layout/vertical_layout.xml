@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+   >
+   <TextView
+       android:id="@+id/textview01"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="TextView01"
+       android:textSize="20dip"
+       android:textColor="#ff00ff00"
+       />
+<TextView
+       android:id="@+id/textview02"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="TextView02"
+       android:textSize="20dip"
+       android:textColor="#c0aabbff"
+       />
+   <TextView
+       android:id="@+id/textview03"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="TextView03"
+       android:textSize="20dip"
+       />
+
+</LinearLayout>
