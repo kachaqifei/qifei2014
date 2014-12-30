@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.canvas"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.canvas.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".BitmapActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+    <activity
+            android:name=".CircleActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+           <activity
+            android:name=".DoodleActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+       <activity
+            android:name=".LineActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+    
+       <activity
+            android:name=".OvelActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+       <activity
+            android:name=".PathActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+           <activity
+            android:name=".RecActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+       
+        <activity
+            android:name=".ReflectActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+       
+        <activity
+            android:name=".roateActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+     <activity
+            android:name=".ScalActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name=".TrancelateActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>
